@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <section id="section1">
+    <h1>Calculadora </h1>
+  </section>
+
+  <section>
+    <div>
+      <label for="">Digite o 1º número:</label>
+      <input type="number" id="n1" class="x">
+
+      <label for="">Operação:</label>
+      <select name="select" id="select">
+        <option value="1">Adição</option>
+        <option value="2">Subtração</option>
+        <option value="3">Multiplicação</option>
+        <option value="4">Divisão</option>
+      </select>
+
+
+      <label for="">Digite o 2º número:</label>
+      <input type="number" id="n2" class="y">
+    </div>
+  </section>
+
+  <section>
+    <div>
+      <button id="butao" onclick="retorno()"> Calcular</button>
+    </div>
+  </section>
+  <div id="resp">
+    <h2>Resultado: <span id="resultado"> </span></h2>
+  </div>
+
+  <script>
+    function retorno() {
+      let n1 = parseFloat(document.getElementById("n1").value);
+      // alert(n1);
+      let n2 = parseFloat(document.getElementById("n2").value);
+
+      let resultado = calc(n1, n2, 1);
+      document.getElementById("resultado").innerHTML = resultado;
+    }
+    // alert(`o resultado é ` + calc())
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+/* * {
+  display: flex;
+} */
+
+section {
+  text-align: center;
+
+}
+
+h1 {
+  /* padding: 10%; */
+  color: brown;
+}
+
+#section1 {
+  text-align: center;
+  padding: 5%;
+}
+
+#n1,
+#n2 {
+
+  margin-right: 5%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+
+}
+
+#resultado {
+  color: brown;
+  text-align: center;
+  padding-top: 5%;
+  /* padding-right: 10%; */
+}
+
+#select {
+  margin-right: 5%;
+}
+
+#butao {
+  margin: 5%;
+  font-size: large;
+  text-align: center;
+  width: 100px;
+
+}
