@@ -49,7 +49,10 @@
       // alert(n1);
       let n2 = parseFloat(document.getElementById("n2").value);
 
-      let resultado = calc(n1, n2, 1);
+      let usu = parseFloat(document.getElementById("select").value);
+      // alert(usu);
+
+      let resultado = calc(n1, n2, usu);
       document.getElementById("resultado").innerHTML = resultado;
     }
     // alert(`o resultado é ` + calc())
