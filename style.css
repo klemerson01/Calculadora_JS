@@ -1,20 +1,19 @@
-/* * {
-  display: flex;
-} */
-
 section {
   text-align: center;
-
+  display: grid;
 }
 
+#body{
+  text-align: center;
+  padding: 10%;
+}
 h1 {
-  /* padding: 10%; */
   color: brown;
 }
 
 #section1 {
   text-align: center;
-  padding: 5%;
+  padding-bottom: 10%;
 }
 
 #n1,
@@ -28,20 +27,24 @@ h1 {
 }
 
 #resultado {
+  
   color: brown;
   text-align: center;
-  padding-top: 5%;
-  /* padding-right: 10%; */
 }
 
 #select {
   margin-right: 5%;
 }
 
-#butao {
+#butao, #reset {
+  
   margin: 5%;
-  font-size: large;
   text-align: center;
-  width: 100px;
+  width: 18%;
 
 }
+
+#select{
+  border: 2px solid black;
+}
+
